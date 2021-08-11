@@ -8,4 +8,4 @@ Mediante vaya aprendiendo de los cursos FrontEnd que estoy haciendo iré agregan
 
 Por el momento se ve así:
 
-<image src="/images/screenshot.png" width=400>
+<image src="/images/screenshot.png" width=600>
