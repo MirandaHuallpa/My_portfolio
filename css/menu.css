@@ -1,0 +1,38 @@
+.menu {
+    display: none;
+    width: 100%;
+}
+
+.menu ul {
+    display:flex; /*esto hace que se vea de lado */
+    flex-direction: row;
+    align-items: center;
+    list-style:none;
+    gap: 40px;
+
+    font-family:'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight:400;
+    font-size:1.6 rem;
+    line-height: 2.1 rem;
+    margin-right: 3.5 rem;
+}
+
+.menu ul a {
+    display: flex;
+    color: var(--white)
+}
+.menu ul a.is-active{
+    color: var(--anggie);
+}
+
+.menu ul a.button {
+    color: var(--black);
+    font-size:20px;
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        display: block;
+    }
+}

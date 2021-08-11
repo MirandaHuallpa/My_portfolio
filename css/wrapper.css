@@ -1,0 +1,14 @@
+.wrapper {
+    max-inline-size: 1158px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    margin: auto;
+    backdrop-filter: blur(10px);
+}
+
+.wrapper2 {
+    max-inline-size: 1158px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    margin: auto;
+}

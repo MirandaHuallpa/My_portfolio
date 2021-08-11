@@ -1,0 +1,103 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 7rem;
+    position: relative;
+    margin-top: 10%
+}
+.home-imagen {
+    text-align: center;
+}
+
+.home-imagen img{
+    max-inline-size: 100%;
+    block-size: auto;
+}
+.home-description {
+    width: 40rem;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.home-description p.hi {
+    text-transform: uppercase;
+    font-family: SF Pro Display,sans-serif;
+    font-style:oblique;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #fff;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.home h1 {
+    font-family: SF Pro Display,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.2rem;
+    line-height: 6.6rem;
+    color: #fff;
+    margin-bottom: 1.6rem
+}
+
+.home h3 {
+    font-family: SF Pro Display,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #0fb;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+}
+
+.home-description p.info {
+    font-family: SF Pro Display,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #fff;
+    margin-bottom: 3.2rem;
+}
+
+.home-description a {
+    font-size: larger;
+    width: 10.7rem;
+    height: 2.8rem;
+    background: #0fb;
+    box-shadow: 0 1.6rem 1.6rem rgb(51 51 51 / 25%);
+    border-radius: 3rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+}
+
+@media screen and (min-width: 768px) {
+    .home {
+        display: flex;
+        gap: 32px;
+    } 
+    .home-description {
+        order: 0;
+        max-inline-size: 450px;
+    }  
+    .home-imagen {
+        order: 2;
+        text-align: end;
+        flex: 1;
+    } 
+}
+
+@media screen and (min-width: 1024px) {
+    .home-imagen img {
+        inline-size: 500px;
+        block-size: 504px;
+    }
+}
