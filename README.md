@@ -7,4 +7,4 @@ Mediante vaya aprendiendo de los cursos FrontEnd que estoy haciendo iré agregan
 *Screenshots:**
 Por el momento se ve así:
 
-<image src="/Imagenes/eleccion-nivel.png">
+<image src="/images/screenshot.png">
